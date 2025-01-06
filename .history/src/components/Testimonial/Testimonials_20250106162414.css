@@ -1,0 +1,17 @@
+.testimonials {
+  margin: 80px auto;
+  padding: 0 80px;
+  position: relative;
+}
+.nxt-btn,
+.back-btn {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  padding: 15px;
+  width: 50px;
+  borderradius 50%;
+  background: #212ea0;
+  transform: translateY(-50%);
+  cursor: pointer;
+}

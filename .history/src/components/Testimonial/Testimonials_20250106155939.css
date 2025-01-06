@@ -1,0 +1,74 @@
+\.container {
+    font-family: "Open Sans", sans-serif;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #000;
+    font-size: 26px;
+    font-weight: 300;
+    position: relative;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+  }
+  
+  h2 b {
+    color: #ff5555;
+  }
+  
+  .testimonial {
+    background-color: #9b9b9b;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: left;
+    position: relative;
+  }
+  
+  .text {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .media {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .image {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .mediaBody {
+    margin-left: 20px;
+    text-align: left;
+  }
+  
+  .name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .position {
+    font-size: 14px;
+    color: #eee;
+  }
+  
+  .starRating .fa {
+    font-size: 14px;
+    color: #ffdc12;
+    margin-right: 3px;
+  }
+  
+  .star {
+    color: #ffdc12;
+  }
+  

@@ -1,0 +1,10 @@
+.testimonials{
+    margin: 80px auto;
+    padding: 0 80px;
+    position: relative;
+}
+.nxt-btn , .back-btn{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
