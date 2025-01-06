@@ -2,10 +2,7 @@
 
 This project is a **Collage Landing Page Website** built using **React** and **Vite**. The landing page is designed to showcase a college's mission and features, as seen in the attached preview image. The project utilizes modern JavaScript, responsive design, and Vite for a fast development experience.
 
-## Preview
 
-![Landing Page Preview](./Screenshot%202025-01-06%20143218.png)  
-*(Screenshot of the website)*
 
 ## Features
 
