@@ -1,0 +1,16 @@
+.about {
+  margin: 100px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+.about_left {
+  flex-basis: 40%;
+}
+.about-right {
+  flex-basis: 56%;
+}
+.about_img{
+    
+}
