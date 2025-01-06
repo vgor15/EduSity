@@ -1,0 +1,123 @@
+/* Navbar Styles */
+nav {
+  width: 100%;
+  color: #fff;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+  background-color: #212ea0;
+  transition: background-color 0.5s ease;
+}
+
+.logo {
+  width: 180px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 5px 20px;
+  font-size: 16px;
+}
+
+.dark-nav {
+  background-color: #212ea0;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li {
+  margin: 0 20px;
+  font-size: 16px;
+}
+
+/* Mobile menu toggle (hamburger) */
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  z-index: 20;
+}
+
+.menu-toggle .bar {
+  width: 25px;
+  height: 3px;
+  margin: 5px 0;
+  background-color: white;
+  transition: 0.3s;
+}
+
+.nav-links.active {
+  display: block; /* Make the menu visible when active */
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Mobile View - Adjustments */
+@media (max-width: 768px) {
+  nav ul {
+    display: none; /* Hide the menu on mobile by default */
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background-color: #212ea0;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .nav-links.active {
+    display: flex; /* Display the menu when active */
+  }
+
+  .nav-links li {
+    margin: 15px 0; /* Increase space between menu items */
+    font-size: 18px; /* Increase font size for readability */
+  }
+
+  .menu-toggle {
+    display: flex; /* Show the hamburger menu on small screens */
+  }
+
+  .menu-toggle .bar.open {
+    transform: rotate(45deg); /* Rotate top bar */
+  }
+
+  .menu-toggle .bar:nth-child(2).open {
+    opacity: 0; /* Hide the middle bar */
+  }
+
+  .menu-toggle .bar:last-child.open {
+    transform: rotate(-45deg); /* Rotate bottom bar */
+  }
+}
+
+@media (min-width: 769px) {
+  nav ul {
+    display: flex; /* Horizontal layout for larger screens */
+  }
+
+  .menu-toggle {
+    display: none; /* Hide the hamburger menu on larger screens */
+  }
+}

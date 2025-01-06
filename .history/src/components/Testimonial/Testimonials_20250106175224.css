@@ -1,0 +1,135 @@
+/* Testimonials Section */
+.testimonials {
+  margin: 80px auto;
+  padding: 0 80px;
+  position: relative;
+}
+
+.nxt-btn,
+.back-btn {
+  position: absolute;
+  top: 50%;
+  padding: 15px;
+  width: 50px;
+  border-radius: 50%;
+  background: #212ea0;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.back-btn {
+  right: auto;
+  left: 0;
+}
+
+.slider {
+  overflow: hidden;
+}
+
+.slider ul {
+  display: flex;
+  width: 200%;
+  overflow-x: hidden;
+  transition: 0.5s;
+  transform: translateX(-25);
+}
+
+.slider ul li {
+  width: 50%;
+  list-style: none;
+  padding: 20px;
+}
+
+.slide {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  padding: 40px;
+  border-radius: 10px;
+  color: #676767;
+  line-height: 1.4;
+}
+
+.slide img {
+  width: 65px;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 4px solid #212ea0;
+}
+
+.user-info {
+  margin-bottom: 20px;
+  font-size: 15px;
+  display: block;
+  margin-top: 20px;
+}
+
+.user-info h3 {
+  color: #212ea0;
+}
+
+/* Responsive Styling */
+
+/* Mobile Devices (Small screens) */
+@media (max-width: 768px) {
+  .testimonials {
+    padding: 0 20px; /* Reduce padding for smaller screens */
+  }
+
+  .nxt-btn,
+  .back-btn {
+    padding: 10px;
+    width: 40px; /* Smaller button size on mobile */
+  }
+
+  .slider ul {
+    width: 300%; /* Allow more items to be shown in a row on mobile */
+  }
+
+  .slider ul li {
+    width: 33.33%; /* Each testimonial takes up 1/3 of the width */
+  }
+
+  .slide {
+    padding: 30px;
+  }
+
+  .user-info h3 {
+    font-size: 14px; /* Smaller font size for mobile */
+  }
+
+  .slide img {
+    width: 50px; /* Reduce image size */
+  }
+}
+
+/* Very Small Devices (Extra small screens like phones in portrait mode) */
+@media (max-width: 480px) {
+  .testimonials {
+    padding: 0 10px; /* Further reduce padding */
+  }
+
+  .nxt-btn,
+  .back-btn {
+    padding: 8px;
+    width: 35px; /* Even smaller button on very small screens */
+  }
+
+  .slider ul {
+    width: 400%; /* Adjust width for extra small screens */
+  }
+
+  .slider ul li {
+    width: 50%; /* Two items per row on very small screens */
+  }
+
+  .slide {
+    padding: 20px; /* Smaller padding on very small screens */
+  }
+
+  .user-info h3 {
+    font-size: 12px; /* Even smaller font size */
+  }
+
+  .slide img {
+    width: 40px; /* Smaller image size */
+  }
+}
