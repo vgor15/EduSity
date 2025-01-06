@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f5f5f5;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.container {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/*************  ✨ Codeium Command 🌟  *************/
+.btn {
+  display: inline-block;
+  padding: 15px 20px;
+  font-size: 15px;
+  background-color: #fff;
+  color: #212121;
+  border: none;
+  border-radius: 30px;
+  outline: 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #f5f5f5;
+}
+
+/******  43601f0e-9fa2-4cb1-b576-9aa446ac9255  *******/
